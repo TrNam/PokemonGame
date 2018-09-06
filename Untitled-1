@@ -1,0 +1,113 @@
+        <div id="pokedex">
+            <img src="pokedex2.png" id="pokedexImg"/>
+            <img src="thefight2.png" id="battle"/>
+            <img src="nosignal2.jpg" id="noSignal"/>
+            <div id="left"></div>
+            <div id="right"></div>
+            <div id="up"></div>
+            <div id="down"></div>
+            <div id="back"></div>
+            <div id="pokemonDisplay">
+                <img src="pikachu_pixel2.png" id="pokemons"/>
+            </div>
+        </div>
+        
+        
+        
+        
+        #pokedex {
+    position:fixed;
+    left:5%;
+    bottom:16%;
+    width:0vw;
+    height:0vh;
+}
+
+#pokedexImg {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+
+
+
+#battle {
+    position:absolute;
+    top:9.75%;
+    left:33.5%;
+    width:31.5%;
+    height:28.5%;
+}
+
+#noSignal {
+    position:absolute;
+    top:9.5%;
+    left:33.5%;
+    width:31.5%;
+    height:29%;
+}
+
+#left {
+    position:absolute;
+    width:2.5%;
+    height:3%;
+    bottom:22%;
+    left:15%;
+}
+
+#right {
+    position:absolute;
+    width:2.5%;
+    height:3%;
+    bottom:22%;
+    left:20%;
+}
+
+#back {
+    position:absolute;
+    width:12%;
+    height:15%;
+    bottom:16%;
+    right:10.185%;
+    border-radius:50%;
+}
+
+#pokemonDisplay {
+    position:absolute;
+    width:31.25%;
+    height:28%;
+    bottom:9.5%;
+    left:33.75%;
+}
+
+#pokemons {
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto;
+}
+
+
+
+
+
+#littleCorner1 {
+    position:absolute;
+    bottom:17%;
+    left:29.8%;
+    width:3.8%;
+    height:4.9%;
+}
+
+#littleCorner2 {
+    position:absolute;
+    top:17%;
+    right:29.9%;
+    width:3.8%;
+    height:5.5%;
+}

@@ -1,0 +1,52 @@
+document.getElementById("SubmitButton").addEventListener("click", function(){
+    if(document.getElementById("water").checked == true){
+        document.getElementById("background").style.zIndex = "-1";
+        document.getElementById("background").style.opacity = "0";
+        document.getElementById("background2").style.zIndex = "-1";
+        document.getElementById("background2").style.opacity = "0";
+        document.getElementById("background1").style.zIndex = "-1";
+        document.getElementById("background1").style.opacity = "0";
+        document.getElementById("background3").style.opacity = "1";
+        document.getElementById("background3").style.zIndex = "0";
+        document.getElementById("FirstInps").style.zIndex = "-1";
+        document.getElementById("FirstInps").style.opacity = "0";
+        document.getElementById("SecInps").style.zIndex = "-1";
+        document.getElementById("SecInps").style.opacity = "0";
+        document.getElementById("ThirdInps").style.zIndex = "-1";
+        document.getElementById("ThirdInps").style.opacity = "0";
+        document.getElementById("TeamMystic").style.display = "block";
+    }else if (document.getElementById("fire").checked == true){
+        document.getElementById("background").style.zIndex = "-1";
+        document.getElementById("background").style.opacity = "0";
+        document.getElementById("background1").style.opacity = "1";
+        document.getElementById("background1").style.zIndex = "0";
+        document.getElementById("background2").style.zIndex = "-1";
+        document.getElementById("background2").style.opacity = "0";
+        document.getElementById("background3").style.zIndex = "-1";
+        document.getElementById("background3").style.opacity = "0";
+        document.getElementById("FirstInps").style.zIndex = "-1";
+        document.getElementById("FirstInps").style.opacity = "0";
+        document.getElementById("SecInps").style.zIndex = "-1";
+        document.getElementById("SecInps").style.opacity = "0";
+        document.getElementById("ThirdInps").style.zIndex = "-1";
+        document.getElementById("ThirdInps").style.opacity = "0";
+        document.getElementById("TeamValor").style.display = "block";
+    }else if (document.getElementById("leaf").checked == true){
+        document.getElementById("background").style.zIndex = "-1";
+        document.getElementById("background2").style.zIndex = "0";
+        document.getElementById("background").style.opacity = "0";
+        document.getElementById("background2").style.opacity = "1";
+        document.getElementById("background1").style.zIndex = "-1";
+        document.getElementById("background1").style.opacity = "0";
+        document.getElementById("background3").style.zIndex = "-1";
+        document.getElementById("background3").style.opacity = "0";
+        document.getElementById("FirstInps").style.zIndex = "-1";
+        document.getElementById("FirstInps").style.opacity = "0";
+        document.getElementById("SecInps").style.zIndex = "-1";
+        document.getElementById("SecInps").style.opacity = "0";
+        document.getElementById("ThirdInps").style.zIndex = "-1";
+        document.getElementById("ThirdInps").style.opacity = "0";
+        document.getElementById("TeamInstinct1").style.display = "block";
+        document.getElementById("TeamInstinct2").style.display = "block";
+    };
+});
